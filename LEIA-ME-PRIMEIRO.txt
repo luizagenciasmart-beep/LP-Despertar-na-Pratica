@@ -1,0 +1,51 @@
+DESPERTAR NA PRÁTICA — ENTREGA COMPLETA
+
+COMO ABRIR
+1. Extraia o ZIP.
+2. Para visualizar sem instalar nada, abra preview/ABRIR-PREVIEW.html.
+3. Para editar, use index.html e styles.css. Mantenha as imagens junto do código.
+
+EXECUÇÃO NO SEU SISTEMA
+Esta página é HTML e CSS estáticos. Não usa framework, npm, banco de dados,
+Supabase, autenticação ou etapa de build.
+Se tiver Python 3, abra o terminal na pasta extraída e execute:
+  python3 -m http.server 4173
+Depois abra http://localhost:4173 no navegador local.
+Também é possível servir a pasta com a extensão Live Server ou outro servidor estático.
+
+CONTEÚDO
+index.html: estrutura, conteúdo e links da landing page.
+styles.css: estilos responsivos. O fundo da primeira dobra usa a imagem
+  login-floresta-eterea.webp com 8% de opacidade no seletor .hero::before.
+assets/: versões otimizadas das imagens utilizadas.
+Imagens na raiz: materiais originais recebidos, preservados.
+preview/ABRIR-PREVIEW.html: cópia independente com estilos e imagens incorporados;
+  é uma exportação para visualizar. Depois de editar o código, precisa ser regenerada.
+preview/Visual-desktop.png e Visual-celular.png: capturas completas para referência.
+revisao/primeira-dobra.png: captura da alteração de fundo solicitada.
+README.md: documentação técnica.
+MANIFESTO-SHA256.txt: lista dos arquivos e hashes para conferir a integridade.
+
+ESTADO DA ENTREGA
+Cinco seções principais, oferta de R$ 9,90, FAQ e CTAs para o checkout informado.
+Verificação em Chromium nas larguras 1440, 390 e 320 px: sem transbordamento
+horizontal; imagens carregadas; FAQ funcional; destinos dos CTAs verificados.
+A verificação dos CTAs conferiu seus endereços, sem realizar compras.
+
+PENDÊNCIA
+Faltam capturas reais do aplicativo: registros pessoais, Meu Mapa e práticas
+diárias. Há um aviso visível na seção de experiência para a versão de revisão.
+Inserir as capturas reais e remover esse aviso antes da versão final aprovada.
+Não foram criadas telas fictícias ou depoimentos.
+
+LINKS
+Checkout: https://app.zuptos.com.br/checkout/60c15f537dffd9e5
+Institucional: https://www.muunaluz.com.br
+
+A aparência do HTML independente funciona sem internet. Links externos precisam
+de conexão e os CTAs abrem o checkout real.
+
+A landing page não foi publicada. O aplicativo em produção, banco, autenticação,
+checkout, webhooks e infraestrutura não foram modificados. Os arquivos foram
+salvos na branch revisao/landing-page; a main não recebeu essas alterações.
+Não publicar sem aprovação explícita da responsável.
